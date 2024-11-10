@@ -7,7 +7,7 @@
 - Hamna Kazmi
 
 ## Supervision
-- **Prof. Dr. Ahsan Ansari** (Chair, Dept. of Computer Systems Engineering)
+- **Prof. Dr. Ahsan Ansari** (Dept of Computer Systems Engineering)
 
 ## Project Summary
 This project aims to develop a cost-effective and accessible device that assists visually impaired people by detecting objects in the surroundings and providing audio feedback. The system uses **Raspberry Pi**, **OpenCV**, **TensorFlow Lite**, and **Python** for real-time object detection.
