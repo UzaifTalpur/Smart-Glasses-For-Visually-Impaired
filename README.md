@@ -51,7 +51,7 @@ To get started, follow these installation steps:
 ## Results
 Sample outputs, screenshots, and testing conditions are available in the `media/` folder, showcasing various object detection scenarios with real-time audio feedback.
 
----
+--- From here the original guide is initiated by Edje Electronics
 
 With this README structure, you'll provide clear information about your contributions and acknowledge the foundational work by Edje Electronics. Let me know if you'd like to add more technical details!
 
