@@ -1,4 +1,61 @@
-# TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
+# Smart Glasses for Visually Impaired People
+
+## Project Overview
+This repository presents our thesis project, **Smart Glasses for Visually Impaired People**, which aims to assist visually impaired individuals in navigating their surroundings by detecting objects and providing real-time audio guidance. This project is based on object detection functionality but introduces unique enhancements to better serve visually impaired users.
+
+## Personal Contributions and Enhancements
+This project was initially inspired by resources from Edje Electronics, but we have introduced critical modifications and additional functionality to tailor the project to a **Smart Glasses** application. The key enhancements include:
+- **Audio Feedback Integration**: Real-time audio output that announces detected objects, making the system practical for visually impaired users.
+- **Smart Glasses Application**: The design and software architecture are specifically adapted for use with smart glasses hardware, enabling easy, hands-free usage.
+
+These modifications help visually impaired users navigate both indoor and outdoor environments, improving accessibility and independence.
+
+## Acknowledgment
+We extend our sincere gratitude to Edje Electronics for providing the foundational resources and implementation guidance that enabled us to start this project. Their initial work with object detection in TensorFlow served as the basis, which we expanded upon to create an accessible application specifically designed for visually impaired individuals.
+
+We are also grateful to our supervisor, **Prof. Dr. Ahsan Ansari**, for his invaluable guidance and support, and to Mehran University of Engineering & Technology, Jamshoro, for providing the facilities and resources to complete this work.
+
+## Project Details
+This project is a part of our thesis for the degree of Bachelor of Computer Systems Engineering. The primary focus is to create a device that can detect objects and convey this information to visually impaired users via audio messages, providing both a real-time and cost-effective solution.
+
+### Features
+- Object detection with real-time audio feedback
+- Optimized for use on Raspberry Pi with TensorFlow Lite
+- Adapted for Smart Glasses usage for hands-free navigation
+
+## Installation
+To get started, follow these installation steps:
+1. **Clone the repository**:
+    ```shell
+    git clone https://github.com/UzaifTalpur/Smart-Glasses-For-Visually-Impaired.git
+    cd Smart-Glasses-For-Visually-Impaired
+    ```
+2. **Install dependencies**:
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Ensure the Raspberry Pi and Pi Camera are set up correctly.
+2. Run the following command to start object detection with audio feedback:
+    ```shell
+    python3 TFLite_detection_webcam.py
+    ```
+
+## Project Structure
+
+- `doc/`: Includes technical documentation, UML diagrams, and flowcharts.
+- `models/`: Stores the trained TensorFlow model files.
+
+
+## Results
+Sample outputs, screenshots, and testing conditions are available in the `media/` folder, showcasing various object detection scenarios with real-time audio feedback.
+
+---
+
+With this README structure, you'll provide clear information about your contributions and acknowledge the foundational work by Edje Electronics. Let me know if you'd like to add more technical details!
+
+## TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
 A guide showing how to train TensorFlow Lite object detection models and run them on Android, the Raspberry Pi, and more!
 
 
